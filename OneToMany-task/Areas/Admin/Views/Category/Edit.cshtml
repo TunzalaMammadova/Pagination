@@ -1,0 +1,15 @@
+﻿@using OneToMany_task.ViewModels.Categories
+
+@model CategoryEditVM
+
+<div class="container mt-5">
+    <form class="form-sample" method="post" asp-action="Edit">
+        <div class="form-group">
+            <label>Category</label>
+            <input asp-for="Name" type="text" class="form-control" maxlength="50" />
+            <span class="text-danger" asp-validation-for="Name"></span>
+        </div>
+        <button type="submit" class="btn btn-primary mr-2">Submit</button>
+        <a asp-action="Index" class="btn btn-primary text-white">Back</a>
+    </form>
+</div>

@@ -1,0 +1,60 @@
+﻿<Properties StartupConfiguration="{A00CB083-0542-4C6D-BAE1-6FE99B51208B}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="OneToMany-task/Areas/Admin/Views/Product/Index.cshtml">
+    <Files>
+      <File FileName="OneToMany-task/Areas/Admin/Controllers/ProductController.cs" Line="25" Column="31" />
+      <File FileName="OneToMany-task/ViewModels/Products/ProductVM.cs" />
+      <File FileName="OneToMany-task/Areas/Admin/Views/Product/Index.cshtml" Line="31" Column="25" />
+      <File FileName="OneToMany-task/Services/ProductService.cs" Line="65" Column="57" />
+      <File FileName="OneToMany-task/Services/Interfaces/IProductService.cs" Line="14" Column="29" />
+      <File FileName="OneToMany-task/wwwroot/js/script.js" />
+      <File FileName="OneToMany-task/ViewModels/Baskets/BasketProductsVM.cs" />
+      <File FileName="OneToMany-task/ViewModels/Baskets/BasketVM.cs" />
+      <File FileName="OneToMany-task/wwwroot/admin/css/style.css" Line="45" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="OneToMany-task" expanded="True">
+            <Node name="OneToMany-task" expanded="True">
+              <Node name="Areas" expanded="True">
+                <Node name="Admin" expanded="True">
+                  <Node name="Controllers" expanded="True" />
+                  <Node name="Views" expanded="True">
+                    <Node name="Product" expanded="True">
+                      <Node name="Index.cshtml" selected="True" />
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Services" expanded="True">
+                <Node name="Interfaces" expanded="True" />
+              </Node>
+              <Node name="ViewModels" expanded="True">
+                <Node name="Baskets" expanded="True" />
+                <Node name="Products" expanded="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Cart" expanded="True" />
+                <Node name="Product" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="admin" expanded="True">
+                  <Node name="css" expanded="True" />
+                </Node>
+                <Node name="css" expanded="True" />
+                <Node name="js" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.OneToMany-task PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

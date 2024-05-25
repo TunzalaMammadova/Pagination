@@ -1,0 +1,19 @@
+﻿@namespace OneToMany_task.ViewModels.Sliders
+@model SliderEditVm
+
+
+<div class="container mt-5">
+   <div class="image">
+       <img src ="~/img/@Model.Image" style="width:300px !important; height:200px !important"/>
+   </div>
+    <form class="form-sample" method="post" asp-action="Create" enctype="multipart/form-data">
+        <div class="form-group">
+            <label>Slider</label>
+            <input asp-for="NewImage" class="form-control" />
+            <span class="text-danger" asp-validation-for="NewImage"></span>
+        </div>
+        <button type="submit" class="btn btn-primary mr-2">Submit</button>
+        <a asp-action="Index" class="btn btn-primary text-white">Back</a>
+    </form>
+</div>
+

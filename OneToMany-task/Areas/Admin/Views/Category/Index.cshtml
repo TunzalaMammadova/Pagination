@@ -1,0 +1,32 @@
+﻿@using OneToMany_task.ViewModels.Categories
+
+@model List<CategoryVM>
+
+<div class="container mt-5">
+    <div class="create-category">
+        <a asp-area="Admin" asp-controller="Category" asp-action="Create" class="btn btn-success text-white" style="font-size:30px;width:100px;">+</a>
+    </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Category</th>
+                <th scope="col">Operations</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+                {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>
+                        <a class="btn btn-info text-white" asp-action="Detail" asp-route-id="@item.Id">Detail</a>
+                        <a class="btn btn-warning text-white"asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                        <form class="form-sample d-inline" method="post" asp-action="Delete" asp-route-id ="@item.Id">
+                            <button type ="submit" class="btn btn-danger text-white">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+                }
+            </tbody>
+    </table>
+</div>

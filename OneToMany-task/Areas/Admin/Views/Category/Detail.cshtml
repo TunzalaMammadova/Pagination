@@ -1,0 +1,16 @@
+﻿@using OneToMany_task.ViewModels.Categories
+
+@model CategoryDetailVM
+
+
+<div class="container mt-5">
+    <div class="form-group">
+        <label>Category</label>
+        <input asp-for="Name" type="text" class="form-control" disabled />
+    </div>
+    @if (Model.ProductCount != 0)
+     {
+        <h3>Product count : @Model.ProductCount</h3>
+     }
+    <a asp-action="Index" class="btn btn-primary text-white">Back</a>
+</div>
